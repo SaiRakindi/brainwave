@@ -8,6 +8,7 @@ import { heroIcons } from "../constants";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Generating from "./Generating";
 import Notification from "./Notification";
+import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -97,6 +98,8 @@ const Hero = () => {
 
             <BackgroundCircles />
           </div>
+
+          <CompanyLogos className="hidden relative z-10 mt-10 lg:block" />
         </div>
       </div>
 
